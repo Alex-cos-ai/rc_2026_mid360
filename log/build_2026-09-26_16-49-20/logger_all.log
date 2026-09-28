@@ -1,0 +1,107 @@
+[0.060s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', '--log-base', 'log', 'build', '--symlink-install', '--base-paths', 'src', '--build-base', 'build', '--install-base', 'install', '--packages-select', 'rc2026_mid360_sim']
+[0.060s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base='log', log_level=None, verb_name='build', build_base='/home/alice/rc_2026_mid360/build', install_base='/home/alice/rc_2026_mid360/install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['src'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['rc2026_mid360_sim'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7584b97911b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7584b9790ca0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7584b9790ca0>>)
+[0.153s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.153s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.153s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.153s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.153s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.153s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/alice/rc_2026_mid360/src'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/rc2026_mid360_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/rc2026_mid360_sim) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/rc2026_mid360_sim) by extension 'ignore_ament_install'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/rc2026_mid360_sim) by extensions ['colcon_pkg']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/rc2026_mid360_sim) by extension 'colcon_pkg'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/rc2026_mid360_sim) by extensions ['colcon_meta']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/rc2026_mid360_sim) by extension 'colcon_meta'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/rc2026_mid360_sim) by extensions ['ros']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/rc2026_mid360_sim) by extension 'ros'
+[0.172s] DEBUG:colcon.colcon_core.package_identification:Failed to parse potential ROS package manifest in'src/rc2026_mid360_sim': Error(s) in package 'src/rc2026_mid360_sim/package.xml':
+Invalid email "alice@localhost" for person "alice"
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/rc2026_mid360_sim) by extensions ['cmake', 'python']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/rc2026_mid360_sim) by extension 'cmake'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/rc2026_mid360_sim) by extension 'python'
+[0.172s] DEBUG:colcon.colcon_core.package_identification:Python package in 'src/rc2026_mid360_sim' passes arguments to the setup() function which requires a different identification extension than 'python'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/rc2026_mid360_sim) by extensions ['python_setup_py']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/rc2026_mid360_sim) by extension 'python_setup_py'
+[0.305s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rc2026_mid360_sim' with type 'python' and name 'rc2026_mid360_sim'
+[0.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.317s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/alice/mid360/install
+[0.318s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 11 installed packages in /home/alice/projects/rc_2026/install
+[0.319s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 456 installed packages in /opt/ros/humble
+[0.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'rc2026_mid360_sim' build argument 'cmake_args' from command line to 'None'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'rc2026_mid360_sim' build argument 'cmake_target' from command line to 'None'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'rc2026_mid360_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'rc2026_mid360_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'rc2026_mid360_sim' build argument 'cmake_clean_first' from command line to 'False'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'rc2026_mid360_sim' build argument 'cmake_force_configure' from command line to 'False'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'rc2026_mid360_sim' build argument 'ament_cmake_args' from command line to 'None'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'rc2026_mid360_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'rc2026_mid360_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.346s] DEBUG:colcon.colcon_core.verb:Building package 'rc2026_mid360_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alice/rc_2026_mid360/build/rc2026_mid360_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alice/rc_2026_mid360/install/rc2026_mid360_sim', 'merge_install': False, 'path': '/home/alice/rc_2026_mid360/src/rc2026_mid360_sim', 'symlink_install': True, 'test_result_base': None}
+[0.346s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.347s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.347s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/alice/rc_2026_mid360/src/rc2026_mid360_sim'
+[0.348s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.348s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.348s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.775s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: bdist_rpm, clean, test, check, install_data, alias, easy_install, compile_catalog, install_lib, install_egg_info, saveopts, egg_info, setopt, init_catalog, build_scripts, install, build_ext, update_catalog, build_py, upload_docs, extract_messages, sdist, build, build_clib, install_scripts, install_headers, symlink_data, rotate, develop, bdist_wheel, bdist, bdist_egg, upload, dist_info, bdist_dumb, register
+[0.932s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --zip-ok, --dry-run, --always-unzip, --no-deps, --verbose, --allow-hosts, --local-snapshots-ok, --no-user-cfg, --script-dir, --always-copy, --upgrade, --version, --quiet, --egg-path, --editable, --no-find-links, --optimize, --user, --build-directory, --record, --install-layout, --index-url, --help, --exclude-scripts, --uninstall, --site-dirs, --force-installation-into-system-dir, --install-dir, --find-links, --prefix, --multi-version
+[0.935s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alice/rc_2026_mid360/build/rc2026_mid360_sim': PYTHONPATH=/home/alice/rc_2026_mid360/build/rc2026_mid360_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alice/rc_2026_mid360/install/rc2026_mid360_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/alice/rc_2026_mid360/build/rc2026_mid360_sim/build --no-deps symlink_data
+[1.216s] Level 1:colcon.colcon_core.shell:create_environment_hook('rc2026_mid360_sim', 'pythonpath_develop')
+[1.217s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alice/rc_2026_mid360/build/rc2026_mid360_sim/share/rc2026_mid360_sim/hook/pythonpath_develop.ps1'
+[1.217s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alice/rc_2026_mid360/build/rc2026_mid360_sim' returned '0': PYTHONPATH=/home/alice/rc_2026_mid360/build/rc2026_mid360_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alice/rc_2026_mid360/install/rc2026_mid360_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/alice/rc_2026_mid360/build/rc2026_mid360_sim/build --no-deps symlink_data
+[1.218s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alice/rc_2026_mid360/build/rc2026_mid360_sim/share/rc2026_mid360_sim/hook/pythonpath_develop.dsv'
+[1.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alice/rc_2026_mid360/build/rc2026_mid360_sim/share/rc2026_mid360_sim/hook/pythonpath_develop.sh'
+[1.220s] Level 1:colcon.colcon_core.environment:checking '/home/alice/rc_2026_mid360/install/rc2026_mid360_sim' for CMake module files
+[1.221s] Level 1:colcon.colcon_core.environment:checking '/home/alice/rc_2026_mid360/install/rc2026_mid360_sim' for CMake config files
+[1.221s] Level 1:colcon.colcon_core.environment:checking '/home/alice/rc_2026_mid360/install/rc2026_mid360_sim/lib'
+[1.221s] Level 1:colcon.colcon_core.environment:checking '/home/alice/rc_2026_mid360/install/rc2026_mid360_sim/bin'
+[1.221s] Level 1:colcon.colcon_core.environment:checking '/home/alice/rc_2026_mid360/install/rc2026_mid360_sim/lib/pkgconfig/rc2026_mid360_sim.pc'
+[1.221s] Level 1:colcon.colcon_core.environment:checking '/home/alice/rc_2026_mid360/install/rc2026_mid360_sim/lib/python3.10/site-packages'
+[1.221s] Level 1:colcon.colcon_core.shell:create_environment_hook('rc2026_mid360_sim', 'pythonpath')
+[1.221s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alice/rc_2026_mid360/install/rc2026_mid360_sim/share/rc2026_mid360_sim/hook/pythonpath.ps1'
+[1.222s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alice/rc_2026_mid360/install/rc2026_mid360_sim/share/rc2026_mid360_sim/hook/pythonpath.dsv'
+[1.222s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alice/rc_2026_mid360/install/rc2026_mid360_sim/share/rc2026_mid360_sim/hook/pythonpath.sh'
+[1.222s] Level 1:colcon.colcon_core.environment:checking '/home/alice/rc_2026_mid360/install/rc2026_mid360_sim/bin'
+[1.222s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rc2026_mid360_sim)
+[1.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/alice/rc_2026_mid360/install/rc2026_mid360_sim/share/rc2026_mid360_sim/package.ps1'
+[1.223s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alice/rc_2026_mid360/install/rc2026_mid360_sim/share/rc2026_mid360_sim/package.dsv'
+[1.223s] INFO:colcon.colcon_core.shell:Creating package script '/home/alice/rc_2026_mid360/install/rc2026_mid360_sim/share/rc2026_mid360_sim/package.sh'
+[1.223s] INFO:colcon.colcon_core.shell:Creating package script '/home/alice/rc_2026_mid360/install/rc2026_mid360_sim/share/rc2026_mid360_sim/package.bash'
+[1.223s] INFO:colcon.colcon_core.shell:Creating package script '/home/alice/rc_2026_mid360/install/rc2026_mid360_sim/share/rc2026_mid360_sim/package.zsh'
+[1.224s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alice/rc_2026_mid360/install/rc2026_mid360_sim/share/colcon-core/packages/rc2026_mid360_sim)
+[1.224s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.224s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.224s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.224s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.227s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.227s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.227s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.236s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.237s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/alice/rc_2026_mid360/install/local_setup.ps1'
+[1.237s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/alice/rc_2026_mid360/install/_local_setup_util_ps1.py'
+[1.238s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/alice/rc_2026_mid360/install/setup.ps1'
+[1.242s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/alice/rc_2026_mid360/install/local_setup.sh'
+[1.243s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/alice/rc_2026_mid360/install/_local_setup_util_sh.py'
+[1.243s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/alice/rc_2026_mid360/install/setup.sh'
+[1.245s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/alice/rc_2026_mid360/install/local_setup.bash'
+[1.245s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/alice/rc_2026_mid360/install/setup.bash'
+[1.246s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/alice/rc_2026_mid360/install/local_setup.zsh'
+[1.247s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/alice/rc_2026_mid360/install/setup.zsh'

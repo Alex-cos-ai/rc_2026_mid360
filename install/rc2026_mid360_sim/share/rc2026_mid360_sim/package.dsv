@@ -1,0 +1,3 @@
+source;share/rc2026_mid360_sim/hook/pythonpath.ps1
+source;share/rc2026_mid360_sim/hook/pythonpath.dsv
+source;share/rc2026_mid360_sim/hook/pythonpath.sh

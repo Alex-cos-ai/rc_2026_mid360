@@ -1,0 +1,17 @@
+[0.523s] Invoking command in '/home/alice/rc_2026_mid360/build_final3/rc2026_mid360_sim': PYTHONPATH=/home/alice/rc_2026_mid360/build_final3/rc2026_mid360_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alice/rc_2026_mid360/install_final/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/alice/rc_2026_mid360/build_final3/rc2026_mid360_sim/build --no-deps symlink_data
+[0.652s] running develop
+[0.740s] running egg_info
+[0.740s] creating rc2026_mid360_sim.egg-info
+[0.740s] writing rc2026_mid360_sim.egg-info/PKG-INFO
+[0.741s] writing dependency_links to rc2026_mid360_sim.egg-info/dependency_links.txt
+[0.741s] writing requirements to rc2026_mid360_sim.egg-info/requires.txt
+[0.741s] writing top-level names to rc2026_mid360_sim.egg-info/top_level.txt
+[0.741s] writing manifest file 'rc2026_mid360_sim.egg-info/SOURCES.txt'
+[0.742s] reading manifest file 'rc2026_mid360_sim.egg-info/SOURCES.txt'
+[0.742s] writing manifest file 'rc2026_mid360_sim.egg-info/SOURCES.txt'
+[0.764s] running build_ext
+[0.764s] Creating /home/alice/rc_2026_mid360/install_final/lib/python3.10/site-packages/rc2026-mid360-sim.egg-link (link to .)
+[0.765s] 
+[0.765s] Installed /home/alice/rc_2026_mid360/build_final3/rc2026_mid360_sim
+[0.765s] running symlink_data
+[0.786s] Invoked command in '/home/alice/rc_2026_mid360/build_final3/rc2026_mid360_sim' returned '0': PYTHONPATH=/home/alice/rc_2026_mid360/build_final3/rc2026_mid360_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alice/rc_2026_mid360/install_final/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/alice/rc_2026_mid360/build_final3/rc2026_mid360_sim/build --no-deps symlink_data

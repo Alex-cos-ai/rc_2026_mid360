@@ -1,0 +1,15 @@
+[0.586s] Invoking command in '/home/alice/rc_2026_mid360/build_final/rc2026_mid360_sim': PYTHONPATH=/home/alice/rc_2026_mid360/build_final/rc2026_mid360_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alice/rc_2026_mid360/install_final/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/alice/rc_2026_mid360/build_final/rc2026_mid360_sim/build --no-deps symlink_data
+[0.728s] running develop
+[0.820s] running egg_info
+[0.820s] writing rc2026_mid360_sim.egg-info/PKG-INFO
+[0.820s] writing dependency_links to rc2026_mid360_sim.egg-info/dependency_links.txt
+[0.820s] writing requirements to rc2026_mid360_sim.egg-info/requires.txt
+[0.820s] writing top-level names to rc2026_mid360_sim.egg-info/top_level.txt
+[0.821s] reading manifest file 'rc2026_mid360_sim.egg-info/SOURCES.txt'
+[0.822s] writing manifest file 'rc2026_mid360_sim.egg-info/SOURCES.txt'
+[0.844s] running build_ext
+[0.844s] Creating /home/alice/rc_2026_mid360/install_final/lib/python3.10/site-packages/rc2026-mid360-sim.egg-link (link to .)
+[0.845s] 
+[0.845s] Installed /home/alice/rc_2026_mid360/build_final/rc2026_mid360_sim
+[0.845s] running symlink_data
+[0.870s] Invoked command in '/home/alice/rc_2026_mid360/build_final/rc2026_mid360_sim' returned '0': PYTHONPATH=/home/alice/rc_2026_mid360/build_final/rc2026_mid360_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alice/rc_2026_mid360/install_final/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/alice/rc_2026_mid360/build_final/rc2026_mid360_sim/build --no-deps symlink_data

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>rc2026_mid360_sim</name>
+  <version>0.1.0</version>
+  <description>RC2026 Gazebo simulation with a TurtleBot3 and an inverted Mid360.</description>
+  <maintainer email="alice@example.com">alice</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+  <depend>ament_index_python</depend>
+  <depend>gazebo_ros</depend>
+  <depend>robot_state_publisher</depend>
+  <depend>turtlebot3_description</depend>
+  <depend>rc2026_field</depend>
+  <depend>rviz2</depend>
+  <depend>sensor_msgs</depend>
+  <depend>fast_lio</depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

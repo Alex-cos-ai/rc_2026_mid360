@@ -1,0 +1,36 @@
+[0.339s] Invoking command in '/home/alice/rc_2026_mid360/build/rc2026_mid360_sim': PYTHONPATH=/home/alice/rc_2026_mid360/build/rc2026_mid360_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alice/rc_2026_mid360/install/rc2026_mid360_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/alice/rc_2026_mid360/build/rc2026_mid360_sim/build
+[0.491s] running develop
+[0.577s] Removing /home/alice/rc_2026_mid360/install/rc2026_mid360_sim/lib/python3.10/site-packages/rc2026-mid360-sim.egg-link (link to .)
+[0.590s] Invoked command in '/home/alice/rc_2026_mid360/build/rc2026_mid360_sim' returned '0': PYTHONPATH=/home/alice/rc_2026_mid360/build/rc2026_mid360_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alice/rc_2026_mid360/install/rc2026_mid360_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/alice/rc_2026_mid360/build/rc2026_mid360_sim/build
+[0.591s] Invoking command in '/home/alice/rc_2026_mid360/src/rc2026_mid360_sim': PYTHONPATH=/home/alice/rc_2026_mid360/build/rc2026_mid360_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alice/rc_2026_mid360/install/rc2026_mid360_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rc2026_mid360_sim build --build-base /home/alice/rc_2026_mid360/build/rc2026_mid360_sim/build install --record /home/alice/rc_2026_mid360/build/rc2026_mid360_sim/install.log --install-scripts $base/lib/rc2026_mid360_sim --single-version-externally-managed install_data --force
+[0.701s] running egg_info
+[0.701s] writing ../../build/rc2026_mid360_sim/rc2026_mid360_sim.egg-info/PKG-INFO
+[0.701s] writing dependency_links to ../../build/rc2026_mid360_sim/rc2026_mid360_sim.egg-info/dependency_links.txt
+[0.703s] writing requirements to ../../build/rc2026_mid360_sim/rc2026_mid360_sim.egg-info/requires.txt
+[0.703s] writing top-level names to ../../build/rc2026_mid360_sim/rc2026_mid360_sim.egg-info/top_level.txt
+[0.703s] reading manifest file '../../build/rc2026_mid360_sim/rc2026_mid360_sim.egg-info/SOURCES.txt'
+[0.703s] writing manifest file '../../build/rc2026_mid360_sim/rc2026_mid360_sim.egg-info/SOURCES.txt'
+[0.704s] running build
+[0.704s] running build_py
+[0.704s] creating /home/alice/rc_2026_mid360/build/rc2026_mid360_sim/build
+[0.704s] creating /home/alice/rc_2026_mid360/build/rc2026_mid360_sim/build/lib
+[0.704s] creating /home/alice/rc_2026_mid360/build/rc2026_mid360_sim/build/lib/rc2026_mid360_sim
+[0.704s] copying rc2026_mid360_sim/__init__.py -> /home/alice/rc_2026_mid360/build/rc2026_mid360_sim/build/lib/rc2026_mid360_sim
+[0.704s] running install
+[0.704s] running install_lib
+[0.704s] creating /home/alice/rc_2026_mid360/install/rc2026_mid360_sim/lib/python3.10/site-packages/rc2026_mid360_sim
+[0.704s] copying /home/alice/rc_2026_mid360/build/rc2026_mid360_sim/build/lib/rc2026_mid360_sim/__init__.py -> /home/alice/rc_2026_mid360/install/rc2026_mid360_sim/lib/python3.10/site-packages/rc2026_mid360_sim
+[0.704s] byte-compiling /home/alice/rc_2026_mid360/install/rc2026_mid360_sim/lib/python3.10/site-packages/rc2026_mid360_sim/__init__.py to __init__.cpython-310.pyc
+[0.704s] running install_data
+[0.704s] copying resource/rc2026_mid360_sim -> /home/alice/rc_2026_mid360/install/rc2026_mid360_sim/share/ament_index/resource_index/packages
+[0.704s] copying package.xml -> /home/alice/rc_2026_mid360/install/rc2026_mid360_sim/share/rc2026_mid360_sim
+[0.704s] creating /home/alice/rc_2026_mid360/install/rc2026_mid360_sim/share/rc2026_mid360_sim/resource
+[0.705s] copying resource/rc2026_mid360_sim -> /home/alice/rc_2026_mid360/install/rc2026_mid360_sim/share/rc2026_mid360_sim/resource
+[0.705s] copying launch/sim.launch.py -> /home/alice/rc_2026_mid360/install/rc2026_mid360_sim/share/rc2026_mid360_sim/launch
+[0.705s] copying launch/mapping.launch.py -> /home/alice/rc_2026_mid360/install/rc2026_mid360_sim/share/rc2026_mid360_sim/launch
+[0.705s] copying config/mid360_sim.yaml -> /home/alice/rc_2026_mid360/install/rc2026_mid360_sim/share/rc2026_mid360_sim/config
+[0.706s] running install_egg_info
+[0.706s] Copying ../../build/rc2026_mid360_sim/rc2026_mid360_sim.egg-info to /home/alice/rc_2026_mid360/install/rc2026_mid360_sim/lib/python3.10/site-packages/rc2026_mid360_sim-0.1.0-py3.10.egg-info
+[0.706s] running install_scripts
+[0.716s] writing list of installed files to '/home/alice/rc_2026_mid360/build/rc2026_mid360_sim/install.log'
+[0.728s] Invoked command in '/home/alice/rc_2026_mid360/src/rc2026_mid360_sim' returned '0': PYTHONPATH=/home/alice/rc_2026_mid360/build/rc2026_mid360_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alice/rc_2026_mid360/install/rc2026_mid360_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rc2026_mid360_sim build --build-base /home/alice/rc_2026_mid360/build/rc2026_mid360_sim/build install --record /home/alice/rc_2026_mid360/build/rc2026_mid360_sim/install.log --install-scripts $base/lib/rc2026_mid360_sim --single-version-externally-managed install_data --force

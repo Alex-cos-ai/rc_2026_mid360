@@ -1,0 +1,14 @@
+running develop
+running egg_info
+writing rc2026_mid360_sim.egg-info/PKG-INFO
+writing dependency_links to rc2026_mid360_sim.egg-info/dependency_links.txt
+writing requirements to rc2026_mid360_sim.egg-info/requires.txt
+writing top-level names to rc2026_mid360_sim.egg-info/top_level.txt
+reading manifest file 'rc2026_mid360_sim.egg-info/SOURCES.txt'
+writing manifest file 'rc2026_mid360_sim.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/alice/rc_2026_mid360/install_final/lib/python3.10/site-packages/rc2026-mid360-sim.egg-link (link to .)
+
+Installed /home/alice/rc_2026_mid360/build_final_gui/rc2026_mid360_sim
+running symlink_data
+symbolically linking /home/alice/rc_2026_mid360/build_final_gui/rc2026_mid360_sim/launch/__pycache__/sim.launch.cpython-310.pyc -> /home/alice/rc_2026_mid360/install_final/share/rc2026_mid360_sim/launch/__pycache__

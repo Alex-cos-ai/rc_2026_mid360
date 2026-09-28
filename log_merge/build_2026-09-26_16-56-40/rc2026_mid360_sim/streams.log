@@ -1,0 +1,29 @@
+[0.680s] Invoking command in '/home/alice/rc_2026_mid360/build_merge/rc2026_mid360_sim': PYTHONPATH=/home/alice/rc_2026_mid360/build_merge/rc2026_mid360_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alice/rc_2026_mid360/install_merge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/alice/rc_2026_mid360/build_merge/rc2026_mid360_sim/build --no-deps symlink_data
+[0.820s] running develop
+[0.901s] running egg_info
+[0.901s] creating rc2026_mid360_sim.egg-info
+[0.901s] writing rc2026_mid360_sim.egg-info/PKG-INFO
+[0.901s] writing dependency_links to rc2026_mid360_sim.egg-info/dependency_links.txt
+[0.901s] writing requirements to rc2026_mid360_sim.egg-info/requires.txt
+[0.901s] writing top-level names to rc2026_mid360_sim.egg-info/top_level.txt
+[0.902s] writing manifest file 'rc2026_mid360_sim.egg-info/SOURCES.txt'
+[0.902s] reading manifest file 'rc2026_mid360_sim.egg-info/SOURCES.txt'
+[0.903s] writing manifest file 'rc2026_mid360_sim.egg-info/SOURCES.txt'
+[0.922s] running build_ext
+[0.922s] Creating /home/alice/rc_2026_mid360/install_merge/lib/python3.10/site-packages/rc2026-mid360-sim.egg-link (link to .)
+[0.923s] 
+[0.923s] Installed /home/alice/rc_2026_mid360/build_merge/rc2026_mid360_sim
+[0.923s] running symlink_data
+[0.923s] creating /home/alice/rc_2026_mid360/install_merge/share
+[0.923s] creating /home/alice/rc_2026_mid360/install_merge/share/ament_index
+[0.923s] creating /home/alice/rc_2026_mid360/install_merge/share/ament_index/resource_index
+[0.923s] creating /home/alice/rc_2026_mid360/install_merge/share/ament_index/resource_index/packages
+[0.923s] symbolically linking /home/alice/rc_2026_mid360/build_merge/rc2026_mid360_sim/resource/rc2026_mid360_sim -> /home/alice/rc_2026_mid360/install_merge/share/ament_index/resource_index/packages
+[0.923s] creating /home/alice/rc_2026_mid360/install_merge/share/rc2026_mid360_sim
+[0.923s] symbolically linking /home/alice/rc_2026_mid360/build_merge/rc2026_mid360_sim/package.xml -> /home/alice/rc_2026_mid360/install_merge/share/rc2026_mid360_sim
+[0.923s] creating /home/alice/rc_2026_mid360/install_merge/share/rc2026_mid360_sim/launch
+[0.923s] symbolically linking /home/alice/rc_2026_mid360/build_merge/rc2026_mid360_sim/launch/sim.launch.py -> /home/alice/rc_2026_mid360/install_merge/share/rc2026_mid360_sim/launch
+[0.923s] symbolically linking /home/alice/rc_2026_mid360/build_merge/rc2026_mid360_sim/launch/mapping.launch.py -> /home/alice/rc_2026_mid360/install_merge/share/rc2026_mid360_sim/launch
+[0.923s] creating /home/alice/rc_2026_mid360/install_merge/share/rc2026_mid360_sim/config
+[0.923s] symbolically linking /home/alice/rc_2026_mid360/build_merge/rc2026_mid360_sim/config/mid360_sim.yaml -> /home/alice/rc_2026_mid360/install_merge/share/rc2026_mid360_sim/config
+[0.939s] Invoked command in '/home/alice/rc_2026_mid360/build_merge/rc2026_mid360_sim' returned '0': PYTHONPATH=/home/alice/rc_2026_mid360/build_merge/rc2026_mid360_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alice/rc_2026_mid360/install_merge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/alice/rc_2026_mid360/build_merge/rc2026_mid360_sim/build --no-deps symlink_data

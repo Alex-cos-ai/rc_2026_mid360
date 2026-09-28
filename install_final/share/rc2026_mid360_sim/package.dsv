@@ -1,0 +1,9 @@
+source;share/rc2026_mid360_sim/hook/pythonpath.ps1
+source;share/rc2026_mid360_sim/hook/pythonpath.dsv
+source;share/rc2026_mid360_sim/hook/pythonpath.sh
+source;share/rc2026_mid360_sim/hook/ament_prefix_path.ps1
+source;share/rc2026_mid360_sim/hook/ament_prefix_path.dsv
+source;share/rc2026_mid360_sim/hook/ament_prefix_path.sh
+source;../build_final/rc2026_mid360_sim/share/rc2026_mid360_sim/hook/pythonpath_develop.ps1
+source;../build_final/rc2026_mid360_sim/share/rc2026_mid360_sim/hook/pythonpath_develop.dsv
+source;../build_final/rc2026_mid360_sim/share/rc2026_mid360_sim/hook/pythonpath_develop.sh
